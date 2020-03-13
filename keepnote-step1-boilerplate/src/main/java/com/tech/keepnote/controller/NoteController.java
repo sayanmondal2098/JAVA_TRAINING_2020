@@ -63,8 +63,6 @@ public class NoteController {
 	*/
 	@RequestMapping("/saveNote")
 	public String addNote(ModelMap map, @RequestParam Map<String, String> noteMap) {
-		List<Note> myList = myNoteRepository.getAllNotes();
-		map.addAttribute("all list",myList);
 		
 		Integer noteId = Integer.parseInt(noteMap.get("noteId"));
 		String noteTitle = noteMap.get("noteTitle");
@@ -83,12 +81,9 @@ public class NoteController {
 			mynote.setCreatedAt(noteCreatedAt);
 
 			myNoteRepository.addNote(mynote);
-			map.addAttribute("Id", mynote.getNoteId());
-			map.addAttribute("Title", mynote.getNoteTitle());
-			map.addAttribute("Content", mynote.getNoteContent());
-			map.addAttribute("Status", mynote.getNoteStatus());
-			map.addAttribute("CreatedDate", mynote.getCreatedAt());
-
+			
+			List<Note> myList = myNoteRepository.getAllNotes();
+			map.addAttribute("all list",myList);
 		}
 		return "index";
 
@@ -102,9 +97,12 @@ public class NoteController {
 	*/
 	
 	@RequestMapping("/deleteNote")
-	public String deleteNote(ModelMap map) {
-		myNoteRepository.deleteNote(mynote.getNoteId());
-		return "index";
+	public String deleteNote(ModelMap map, @RequestParam ("noteId") int noteId) {
+		
+		myNoteRepository.deleteNote(noteId);
+		List<Note> myList = myNoteRepository.getAllNotes();
+		map.addAttribute("all list",myList);
+		return "redirect:/";
 	}
 	
 }

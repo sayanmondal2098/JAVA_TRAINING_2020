@@ -1,0 +1,282 @@
+!SESSION 2020-03-10 01:49:18.190 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_211
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/sayanmondal/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/sayanmondal/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-10 01:49:47.408
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2020-03-10 01:49:47.451
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2020-03-10 01:49:50.868
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-03-10 01:51:28.784
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-03-10 01:51:28.784
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.784
+!MESSAGE Software being installed: Eclipse XSL Developer Tools 1.3.900.v201909031400 (org.eclipse.wst.xsl.feature.feature.group 1.3.900.v201909031400)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.784
+!MESSAGE Missing requirement: Structured Source Editor 1.6.200.v201911262138 (org.eclipse.wst.sse.ui 1.6.200.v201911262138) requires 'osgi.bundle; org.eclipse.ui.workbench [3.117.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-03-10 01:51:28.784
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.784
+!MESSAGE From: Eclipse XML Editors and Tools 1.2.300.v201904272112 (org.eclipse.wst.xml.ui 1.2.300.v201904272112)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.784
+!MESSAGE To: osgi.bundle; org.eclipse.wst.sse.ui [1.6.0,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-03-10 01:51:28.784
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.784
+!MESSAGE From: XPath UI 1.1.300.v201904282210 (org.eclipse.wst.xml.xpath.ui 1.1.300.v201904282210)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.784
+!MESSAGE To: osgi.bundle; org.eclipse.wst.xml.ui [1.2.300,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-03-10 01:51:28.784
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.784
+!MESSAGE From: Eclipse XSL Developer Tools 1.3.900.v201909031400 (org.eclipse.wst.xsl.feature.feature.group 1.3.900.v201909031400)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.784
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.xml.xpath.ui [1.1.300.v201904282210,1.1.300.v201904282210]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-03-10 01:51:28.834
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-03-10 01:51:28.834
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.834
+!MESSAGE Software being installed: Eclipse XSL Developer Tools 1.3.900.v201909031400 (org.eclipse.wst.xsl.feature.feature.group 1.3.900.v201909031400)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.834
+!MESSAGE Missing requirement: Structured Source Editor 1.6.200.v201911262138 (org.eclipse.wst.sse.ui 1.6.200.v201911262138) requires 'osgi.bundle; org.eclipse.ui.workbench [3.117.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-03-10 01:51:28.834
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.834
+!MESSAGE From: Eclipse XML Editors and Tools 1.2.300.v201904272112 (org.eclipse.wst.xml.ui 1.2.300.v201904272112)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.834
+!MESSAGE To: osgi.bundle; org.eclipse.wst.sse.ui [1.6.0,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-03-10 01:51:28.834
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.834
+!MESSAGE From: XPath UI 1.1.300.v201904282210 (org.eclipse.wst.xml.xpath.ui 1.1.300.v201904282210)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.834
+!MESSAGE To: osgi.bundle; org.eclipse.wst.xml.ui [1.2.300,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-03-10 01:51:28.834
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.834
+!MESSAGE From: Eclipse XSL Developer Tools 1.3.900.v201909031400 (org.eclipse.wst.xsl.feature.feature.group 1.3.900.v201909031400)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.834
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.xml.xpath.ui [1.1.300.v201904282210,1.1.300.v201904282210]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-03-10 01:51:28.903
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-03-10 01:51:28.903
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.903
+!MESSAGE Software being installed: Eclipse XSL Developer Tools 1.3.900.v201909031400 (org.eclipse.wst.xsl.feature.feature.group 1.3.900.v201909031400)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.903
+!MESSAGE Missing requirement: Structured Source Editor 1.6.200.v201911262138 (org.eclipse.wst.sse.ui 1.6.200.v201911262138) requires 'osgi.bundle; org.eclipse.ui.workbench [3.117.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-03-10 01:51:28.903
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.903
+!MESSAGE From: Eclipse XML Editors and Tools 1.2.300.v201904272112 (org.eclipse.wst.xml.ui 1.2.300.v201904272112)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.903
+!MESSAGE To: osgi.bundle; org.eclipse.wst.sse.ui [1.6.0,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-03-10 01:51:28.903
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.903
+!MESSAGE From: XPath UI 1.1.300.v201904282210 (org.eclipse.wst.xml.xpath.ui 1.1.300.v201904282210)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.903
+!MESSAGE To: osgi.bundle; org.eclipse.wst.xml.ui [1.2.300,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-03-10 01:51:28.903
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.903
+!MESSAGE From: Eclipse XSL Developer Tools 1.3.900.v201909031400 (org.eclipse.wst.xsl.feature.feature.group 1.3.900.v201909031400)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.903
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.xml.xpath.ui [1.1.300.v201904282210,1.1.300.v201904282210]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-03-10 01:51:28.906
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-03-10 01:51:28.906
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.906
+!MESSAGE Software being installed: Eclipse XSL Developer Tools 1.3.900.v201909031400 (org.eclipse.wst.xsl.feature.feature.group 1.3.900.v201909031400)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.906
+!MESSAGE Missing requirement: Structured Source Editor 1.6.200.v201911262138 (org.eclipse.wst.sse.ui 1.6.200.v201911262138) requires 'osgi.bundle; org.eclipse.ui.workbench [3.117.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-03-10 01:51:28.906
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.906
+!MESSAGE From: Eclipse XML Editors and Tools 1.2.300.v201904272112 (org.eclipse.wst.xml.ui 1.2.300.v201904272112)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.906
+!MESSAGE To: osgi.bundle; org.eclipse.wst.sse.ui [1.6.0,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-03-10 01:51:28.906
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.906
+!MESSAGE From: XPath UI 1.1.300.v201904282210 (org.eclipse.wst.xml.xpath.ui 1.1.300.v201904282210)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.906
+!MESSAGE To: osgi.bundle; org.eclipse.wst.xml.ui [1.2.300,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-03-10 01:51:28.906
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.906
+!MESSAGE From: Eclipse XSL Developer Tools 1.3.900.v201909031400 (org.eclipse.wst.xsl.feature.feature.group 1.3.900.v201909031400)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-03-10 01:51:28.906
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.xml.xpath.ui [1.1.300.v201904282210,1.1.300.v201904282210]
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2020-03-10 01:52:49.652
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2020-03-10 01:52:49.652
+!MESSAGE session context was:(profile=_Users_sayanmondal_eclipse_jee-2019-03_Eclipse.app_Contents_Eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.identity.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.net,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.feed,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.screenshots,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.ui,3.25.0.v20180706-1510
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.workbench,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.xmlrpc,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.tasks.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.debug.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.help.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ant,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.tasks,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.resources.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.bugs,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.search,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.ui,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.team.ui,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: osgi.bundle,pm.eclipse.editbox,1.0.0.201804021412
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.bugzilla_feature,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.identity,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.notifications,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.repositories,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.context_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.discovery,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.ide_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.java_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.monitor,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.tasks.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.team_feature,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn_feature,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:52:49.652
+!MESSAGE No repository found containing: org.eclipse.update.feature,pm.eclipse.editbox.feature,1.0.0.201804021412
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2020-03-10 01:56:35.838
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2020-03-10 01:56:35.838
+!MESSAGE session context was:(profile=_Users_sayanmondal_eclipse_jee-2019-03_Eclipse.app_Contents_Eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.identity.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.net,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.feed,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.screenshots,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.ui,3.25.0.v20180706-1510
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.workbench,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: osgi.bundle,pm.eclipse.editbox,1.0.0.201804021412
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.identity,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.notifications,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.repositories,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.discovery,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.monitor,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-03-10 01:56:35.838
+!MESSAGE No repository found containing: org.eclipse.update.feature,pm.eclipse.editbox.feature,1.0.0.201804021412
