@@ -1,9 +1,19 @@
 package com.tech.keepnote.dao;
 
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
-import org.hibernate.SessionFactory;
+import javax.transaction.Transactional;
 
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.test.context.ContextConfiguration;
+
+import com.tech.keepnote.config.ApplicationContextConfig;
 import com.tech.keepnote.model.Note;
 
 /*
@@ -16,14 +26,20 @@ import com.tech.keepnote.model.Note;
  * 					context.  
  * */
 
+@Repository
+@Transactional
+@ContextConfiguration(classes = { ApplicationContextConfig.class })
 public class NoteDAOImpl implements NoteDAO {
 
 	/*
 	 * Autowiring should be implemented for the SessionFactory.
 	 */
-
+	@Autowired
+	private SessionFactory sessionFactory;
+	
 	public NoteDAOImpl(SessionFactory sessionFactory) {
 
+		this.sessionFactory=sessionFactory;
 	}
 
 	/*
@@ -31,7 +47,15 @@ public class NoteDAOImpl implements NoteDAO {
 	 */
 
 	public boolean saveNote(Note note) {
-		return false;
+		try {
+			Session session = this.sessionFactory.getCurrentSession();
+			session.save(note);
+			return true;
+		} catch (HibernateException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return false;
+		}
 
 	}
 
@@ -40,7 +64,20 @@ public class NoteDAOImpl implements NoteDAO {
 	 */
 
 	public boolean deleteNote(int noteId) {
-		return false;
+		Boolean deleteFlag = true;
+			Session session=this.sessionFactory.getCurrentSession();
+			Note note = (Note)session.load(Note.class, new Integer(noteId));
+			try {
+				if(null!=note)
+				{
+					session.delete(note);
+				}
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				deleteFlag= false;
+			}
+			return deleteFlag;
 
 	}
 
@@ -49,7 +86,16 @@ public class NoteDAOImpl implements NoteDAO {
 	 * order(showing latest note first)
 	 */
 	public List<Note> getAllNotes() {
-		return null;
+		Session session=this.sessionFactory.getCurrentSession();
+		@SuppressWarnings("unchecked")
+		List<Note> noteList= session.createQuery("from Note").list();
+		Collections.sort(noteList, new Comparator<Note>() {
+		    public int compare(Note n1, Note n2) {
+		        return n1.getCreatedAt().compareTo(n2.getCreatedAt());
+		    }
+		});
+		Collections.reverse(noteList);
+		return noteList;
 
 	}
 
@@ -57,6 +103,12 @@ public class NoteDAOImpl implements NoteDAO {
 	 * retrieve specific note from the database(note) table
 	 */
 	public Note getNoteById(int noteId) {
+		Session session=this.sessionFactory.getCurrentSession();
+		Note note=session.load(Note.class, new Integer(noteId));
+		if(null!=note)
+		{
+			return note;
+		}
 		return null;
 
 	}
@@ -64,7 +116,15 @@ public class NoteDAOImpl implements NoteDAO {
 	/* Update existing note */
 
 	public boolean UpdateNote(Note note) {
-		return false;
+		Session session=this.sessionFactory.getCurrentSession();
+		try {
+			session.update(note);
+			return true;
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return false;
+		}
 
 	}
 
