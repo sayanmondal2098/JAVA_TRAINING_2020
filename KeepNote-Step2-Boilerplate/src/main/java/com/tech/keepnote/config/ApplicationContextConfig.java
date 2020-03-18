@@ -46,7 +46,7 @@ public class ApplicationContextConfig {
 		ds.setUrl("jdbc:mysql://" + "127.0.0.1" + ":3306/" + "keep_note"
 				+"?verifyServerCertificate=false&useSSL=false&requireSSL=false");
 		ds.setUsername("root");
-		ds.setUsername("garden3#");
+		ds.setPassword("garden3#");
 		return ds;
 	}
 
@@ -60,7 +60,8 @@ public class ApplicationContextConfig {
 	{
 		LocalSessionFactoryBean sf=new LocalSessionFactoryBean();
 		sf.setDataSource(dataSource());
-		sf.setAnnotatedPackages(new String[] {"com.tech.keepnote.model"});
+//		sf.setAnnotatedPackages(new String[] {"com.tech.keepnote.model"});
+		sf.setPackagesToScan(new String[] {"com.tech.keepnote.model"});
 		sf.setHibernateProperties(hibernateProperties());
 		return sf;
 	}

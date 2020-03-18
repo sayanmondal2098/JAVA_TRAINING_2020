@@ -1,5 +1,9 @@
 package com.tech.keepnote.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.tech.keepnote.dao.NoteDAO;
+
 /*
  * Annotate the class with @Controller annotation.@Controller annotation is used to mark 
  * any POJO class as a controller so that Spring can recognize this class as a Controller
@@ -23,12 +27,24 @@ public class NoteController {
 	 * Create a Note object.
 	 * 
 	 */
+	
+	@Autowired
+	NoteDAO noteDAO;
+
+	public NoteController(NoteDAO noteDAO) {
+		super();
+		this.noteDAO = noteDAO;
+	}
+	
+	
 
 	/*
 	 * Define a handler method to read the existing notes from the database and add
 	 * it to the ModelMap which is an implementation of Map, used when building
 	 * model data for use with views. it should map to the default URL i.e. "/"
 	 */
+	
+	
 
 	/*
 	 * Define a handler method which will read the NoteTitle, NoteContent,
