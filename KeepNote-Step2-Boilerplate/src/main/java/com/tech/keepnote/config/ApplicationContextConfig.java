@@ -43,10 +43,10 @@ public class ApplicationContextConfig {
 	{
 		DriverManagerDataSource ds=new DriverManagerDataSource();
 		ds.setDriverClassName("com.mysql.jdbc.Driver");
-		ds.setUrl("jdbc:mysql://" + "127.0.0.1" + ":3306/" + "keep_note"
+		ds.setUrl("jdbc:mysql://" + "127.0.0.1" + ":3306/" + "notes"
 				+"?verifyServerCertificate=false&useSSL=false&requireSSL=false");
-		ds.setUsername("root");
-		ds.setPassword("garden3#");
+		ds.setUsername("ph3n1x");
+		ds.setPassword("ph3n1x");
 		return ds;
 	}
 
